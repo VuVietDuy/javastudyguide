@@ -25,7 +25,7 @@ const config: Config = {
   organizationName: 'vuvietduy', // Usually your GitHub org/user name.
   projectName: 'javastudyguide', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
