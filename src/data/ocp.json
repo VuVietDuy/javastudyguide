@@ -1,0 +1,20 @@
+[
+    {
+    "question": "Java 21 là phiên bản?",
+    "options": [
+            { "text": "LTS (Long Term Support)", "isCorrect": true
+            },
+            { "text": "Phiên bản thử nghiệm", "isCorrect": false
+            }
+        ]
+    },
+    {
+    "question": "Virtual Threads ra mắt chính thức từ phiên bản nào?",
+    "options": [
+            { "text": "Java 17", "isCorrect": false
+            },
+            { "text": "Java 21", "isCorrect": true
+            }
+        ]
+    }
+]
