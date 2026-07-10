@@ -69,6 +69,15 @@ const config: Config = {
         routeBasePath: 'k8s',
         sidebarPath: './sidebars.k8s.ts',
       },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docker',
+        path: 'docs/docker',
+        routeBasePath: 'docker',
+        sidebarPath: './sidebars.ts',
+      },
     ]
   ],
 
@@ -99,6 +108,10 @@ const config: Config = {
           label: 'DevOps',
           position: 'left',
           items: [
+            {
+              label: 'Docker',
+              to: '/docker/intro',
+            },
             {
               label: 'K8s',
               to: '/k8s/intro',
