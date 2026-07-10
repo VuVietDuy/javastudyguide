@@ -1,0 +1,17 @@
+---
+sidebar_position: 5
+---
+
+A Dockerfile is a text-based document that's used to create a container image. It provides instructions to the image builder on the commands to run, files to copy, startu command, and more.
+
+
+Common instructions
+
+- `FROM <image>` - this specifies the base image that the build will extend
+- `WORKDIR <path>` - this instruction specifies the "working directory" or the path in the image where files will be copied and commands will be executed.
+- `COPY <host-path> <image-path>` - this instruction tells the builder to copy files form the host and put them into the container image. 
+- `RUN <command>` - this instruction tells the builder to run the specified command.
+- `ENV <name> <value>` - this instruction sets an environment variable that a running container will use.
+- `EXPOSE <port-number>` - this instruction sets configuration on the image that indicates a port the image would like to expose
+- `USER <user-or-uid>` - this instruction sets the default user for all subsequent instructions.
+- `CMD ["<command>", "<arg1>"]` - this instruction sets the default command a container using this image will run.
