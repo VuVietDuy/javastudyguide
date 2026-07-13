@@ -36,3 +36,7 @@ Run on every node, maintainging runng pods and providing the Kubenetes runtime e
 
 - kubelet: Ensures that Pods are running, including their containers.
 - Container runtime
+
+## Object in Kubernetes
+
+Kubernetes objects are persistent entities in the Kubernetes system. Kubernetes uses these entities to represent the state of your cluster.

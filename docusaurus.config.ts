@@ -78,6 +78,15 @@ const config: Config = {
         routeBasePath: 'docker',
         sidebarPath: './sidebars.ts',
       },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'linux',
+        path: 'docs/linux',
+        routeBasePath: 'linux',
+        sidebarPath: './sidebars.ts',
+      },
     ]
   ],
 
@@ -108,6 +117,10 @@ const config: Config = {
           label: 'DevOps',
           position: 'left',
           items: [
+            {
+              label: 'Linux',
+              to: '/linux/intro',
+            },
             {
               label: 'Docker',
               to: '/docker/intro',
